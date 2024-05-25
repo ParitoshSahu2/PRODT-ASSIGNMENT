@@ -1,0 +1,85 @@
+.flight-order-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.traveler-info {
+  margin-bottom: 20px;
+}
+
+.traveler-info input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.phone-info {
+  display: flex;
+}
+
+.phone-info input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.create-order-button {
+  padding: 12px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.create-order-button:hover {
+  background-color: #218838;
+}
+
+.error-message {
+  color: red;
+}
+
+.order-confirmation {
+  margin-top: 20px;
+}
+
+.order-confirmation h3 {
+  margin-bottom: 10px;
+}
+
+.ticket {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-header {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.ticket-body .ticket-section {
+  margin-bottom: 15px;
+}
+
+.ticket-body .ticket-section h4 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.ticket-body .ticket-section p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
